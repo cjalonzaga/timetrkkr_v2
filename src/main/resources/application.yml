@@ -1,0 +1,13 @@
+spring:
+    datasource:
+      url: jdbc:sqlserver://cristimetrkkrapp.database.windows.net:1433;database=cristimetrkkrdb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+      username: crisadmintrkkr
+      password: cris01Javaapp%^#@!
+    jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+server:
+  port: 8282
+
